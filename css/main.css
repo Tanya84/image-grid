@@ -55,16 +55,12 @@ img:nth-child(5) {
 
   @media only screen and (min-width: 60em) {
 
+    img:first-child {
+      width: 66.666%
+    }
 
-
+    img:last-child {
+      display: block;
+      width: 33.3333%
+    }
   }
-
-
-
-
-
-}
-
-
-
-}
